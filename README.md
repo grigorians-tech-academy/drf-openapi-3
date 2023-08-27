@@ -1,4 +1,4 @@
-# **Django REST API (base)**
+# **DRF Permission Classes**
 By Grigorian's Tech Academy
 
 📺 **Grigorian's Tech Academy** is a YouTube channel dedicated to educating aspiring developers in full-stack Python, Django, JavaScript, React, and more! For comprehensive tutorials on the latest technologies, don't forget to [subscribe](https://www.youtube.com/@GrigoriansTechAcademy)!
