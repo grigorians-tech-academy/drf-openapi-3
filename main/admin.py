@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Project, Task
+from .models import LogItem, Project, Task
 
 # Register your models here.
 
@@ -16,3 +16,8 @@ class ProjectAdmin(admin.ModelAdmin):
 class TaskAdmin(admin.ModelAdmin):
     list_display = ["title", "owner", "created_at", "completed"]
     search_fields = ["title", "description"]
+
+
+@admin.register(LogItem)
+class LogItemAdmin(admin.ModelAdmin):
+    list_display = ["comment", "created_at"]
