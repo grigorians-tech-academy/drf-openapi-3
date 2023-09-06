@@ -1,12 +1,12 @@
-# **DRF Permission Classes**
+# **DRF OpenAPI 3**
 By Grigorian's Tech Academy
 
 📺 **Grigorian's Tech Academy** is a YouTube channel dedicated to educating aspiring developers in full-stack Python, Django, JavaScript, React, and more! For comprehensive tutorials on the latest technologies, don't forget to [subscribe](https://www.youtube.com/@GrigoriansTechAcademy)!
 
 ## **Description**:
-Repository focused on crafting Django Rest Framework permission classes. Enhance your DRF projects with customized security solutions through these detailed examples and guides.
+This repository seamlessly integrates OpenAPI 3 with Django Rest Framework, streamlining the process of creating well-documented and robust RESTful APIs. 
 
-[View tutorial](https://youtu.be/xAhprRUFugw)
+[View tutorial](https://youtu.be/aNLRphQ1ytw)
 
 ## **Pre-requisites**:
 1. Python 3.x
@@ -56,6 +56,11 @@ There are 2 available endpoints:
 For authorization via API use this endpoints (described in video):
 - http://127.0.0.1:8000/api/token/
 - http://127.0.0.1:8000/api/refresh/
+
+The documentation is available by accessing this URL's:
+- http://127.0.0.1:8000/api/schema/
+- http://127.0.0.1:8000/api/redoc/
+- http://127.0.0.1:8000/api/swagger/
 
 ## **Contribution**:
 Feel free to fork the repository and submit pull requests! If you find any issues, please open an issue in the repository.
